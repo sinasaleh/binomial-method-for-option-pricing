@@ -21,7 +21,7 @@ The second notebook introduces the **CEV (Constant Elasticity of Variance) model
   - Implementation of the Longstaff–Schwartz algorithm
   - Monte Carlo pricing with estimated continuation values
 
-- **Notebook 2:** Option pricing under the CEV model
+- **Notebook 2:** Option pricing with binomial and Monte Carlo methods under the CEV model
   - Introduction to the CEV model
   - Binomial pricing under CEV
   - Monte Carlo simulation under CEV
@@ -33,15 +33,11 @@ Closed-form formulas are available only for a limited class of option pricing pr
 
 ## Requirements
 
-To run the notebooks, you will typically need:
+To run the notebooks you will need:
 
 - Python 3
 - Jupyter Notebook
-- `numpy`
-- `matplotlib`
-- `scipy` 
-
-You can install the required packages with:
-
-```bash
-pip install numpy matplotlib scipy pandas jupyter
+- numpy
+- matplotlib
+- scipy
+- scikit-learn
